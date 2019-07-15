@@ -28,7 +28,6 @@ outlined on that page and do not file a public issue.
 
 ## Coding Style  
 For Android, we follow Google Java Style Guide as the coding style: <https://google.github.io/styleguide/javaguide.html>.
-For iOS, we follow the Swift API Design Guidelines: <https://swift.org/documentation/api-design-guidelines/>.
 
 ## License
 By contributing to WhatsApp Stickers, you agree that your contributions will be licensed
