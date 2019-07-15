@@ -16,16 +16,16 @@
 - After successfully opening the project it will automatically run a build (You can keep track of the progress by clicking on the "🔨 Build" tab at the bottom).
 
 ## Add you own Stickers!
-- Navigate to "app/assets/", here you will find a file called "contents.json" where you will define the following properties:
--- "name" : The name of the sticker pack.
--- "publisher" : The name of the publisher eg your name here.
--- "publisher_website" : If you have a website you can add it here or leave it blank its optional.
-
+Navigate to "app/assets/", here you will find a file called "contents.json" where you will define the following properties:
+- "name" : The name of the sticker pack.
+- "publisher" : The name of the publisher eg your name here.
+- "publisher_website" : If you have a website you can add it here or leave it blank its optional.
 - In the same file as above there is an array called "stickers", this is where you define the image and the name of the image you want to include, you can also define what "emojis" are related to said sticker.
 
 ## Add Sticker images
 - There are two ways to add stickers, as webp files or as png files. I reccomend using the WEBP file format.
 - Simply replace the images in the "app/assets/1" directory with the images that you want to include.
+- IMPORTANT: The minimum amount of stickers is 3 and the maximum is 30.
 
 # Important
 ## Now to setup the APK to build your stickers app.
